@@ -1,2 +1,4 @@
 # Gene-Cluster-Search-Pipeline
 A  pipeline for constructing a list of genome sequences that are candidates for containing a user-specified gene cluster of interest. This pipeline utilizes Python scripts, NCBI E-utilities and the NCBI Identical Protein Groups database to convert the results of BLASTp searches (proteins) to the corresponding genome sequences. This pipeline was designed to feed the list of candidate genome sequences to MultiGeneBLAST for gene cluster searching, and this package includes a script to enable parallelization of MultiGeneBLAST (for use on an HPC system). This pipeline enables the user to create and search a very large list of candidate genome sequences for their cluster of interest (used for approx. 800K genome sequences).
+
+For a more detailed description of each script, please read the README_10-11-2021.docx file.
